@@ -1,0 +1,21 @@
+# societyflow-agent (GitHub Repo)
+
+Upload ALL files in this folder to your GitHub repository.
+GitHub repo name: societyflow-agent
+
+## Files
+- agent.py      — Main agent (CCTV + NVR/DVR + Attendance)
+- biometric.py  — ZKTeco/eSSL/Hikvision biometric handler
+- install.sh    — One-command installer for Raspberry Pi
+- requirements.txt — Python dependencies
+- version.txt   — Agent version number
+- README.md     — Documentation
+
+## IMPORTANT: Edit install.sh before uploading!
+Replace YOUR_ORG on line ~15 with your actual GitHub username:
+  GITHUB_RAW="https://raw.githubusercontent.com/YOUR_ORG/societyflow-agent/main"
+
+## Install Command (once uploaded)
+```bash
+curl -sSL https://raw.githubusercontent.com/YOUR_ORG/societyflow-agent/main/install.sh | sudo bash
+```
