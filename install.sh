@@ -4,14 +4,14 @@
 # Raspberry Pi OS / Ubuntu / Debian
 # ================================================================
 # Usage:
-#   curl -sSL https://github.com/Kunaltyagi164/societyflow-agent/main/install.sh | sudo bash
+#   curl -sSL https://raw.githubusercontent.com/Kunaltyagi164/societyflow-agent/main/install.sh | sudo bash
 # ================================================================
 
 set -e
 
 AGENT_DIR="/opt/societyflow-agent"
 SERVICE_NAME="societyflow-agent"
-GITHUB_RAW="https://github.com/Kunaltyagi164/societyflow-agent/main"
+GITHUB_RAW="https://raw.githubusercontent.com/Kunaltyagi164/societyflow-agent/main"
 CONFIG_FILE="/etc/societyflow/agent.conf"
 PYTHON="python3"
 
